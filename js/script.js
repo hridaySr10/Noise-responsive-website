@@ -663,7 +663,7 @@ btn.addEventListener("click", () => {
 let input = document.querySelectorAll(".timer-box > input");
 
 function clock() {
-  const old = "30 April 2025 12:00 am";
+  const old = "30 December 2025 12:00 am";
   const oldDt = new Date(old);
   const newDt = new Date();
   let diff = (oldDt - newDt) / 1000;
